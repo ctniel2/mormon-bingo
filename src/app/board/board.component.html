@@ -1,3 +1,20 @@
-<p>
-  board works!
-</p>
+<div id="component" *ngIf="board == ''">
+  <button (click)="determineBoard(1)">YSA Ward</button>
+  <button (click)="determineBoard(2)">Student-Married Ward</button>
+  <button (click)="determineBoard(3)">Family Ward</button>
+</div>
+
+<div id="ysaBoard" *ngIf="board == 'YSA'">
+  I'm the YSA board!
+  <button (click)="determineBoard(0)">Back to board selection</button>
+</div>
+
+<div id="marriedBoard" *ngIf="board == 'Married'">
+  I'm the Student-Married board!
+  <button (click)="determineBoard(0)">Back to board selection</button>
+</div>
+
+<div id="familyBoard" *ngIf="board =='Family'">
+  I'm the Family board!
+  <button (click)="determineBoard(0)">Back to board selection</button>
+</div>

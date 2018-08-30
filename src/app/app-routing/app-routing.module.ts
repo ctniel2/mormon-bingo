@@ -9,7 +9,7 @@ const routes: Routes = [
         component: DashboardComponent,
     },
     {
-        path: '/bingo',
+        path: 'bingo',
         component: BoardComponent,
     }
 ];
