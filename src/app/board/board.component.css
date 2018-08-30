@@ -1,3 +1,19 @@
 #component {
     text-align: center;
 }
+#ysaBoard {
+    text-align: center;
+}
+#marriedBoard {
+    text-align: center;
+}
+#familyBoard {
+    text-align: center;
+}
+.squares {
+    width: 100px;
+    height: 60px;
+    border: 1px solid black;
+    padding: 15px;
+    display: inline-block;
+}

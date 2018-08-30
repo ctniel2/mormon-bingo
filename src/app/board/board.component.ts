@@ -8,6 +8,9 @@ import { Component, OnInit } from '@angular/core';
 export class BoardComponent implements OnInit {
 
   board = '';
+  ysaBingo = new Array(25);
+  marriedBingo = new Array(25);
+  familyBingo = new Array(25);
 
   constructor() { }
 
