@@ -1,0 +1,154 @@
+{
+  "s0": {
+      "ysa": "Odd use of EVEN (\"...thy son <strong>EVEN</strong> Jesus Christ\")",
+      "married": "Odd use of EVEN (\"...thy son <strong>EVEN</strong> Jesus Christ\")",
+      "family": "Odd use of EVEN (\"...thy son <strong>EVEN</strong> Jesus Christ\")"
+    },
+
+  "s1": {
+      "ysa": "The Moment of Silence (anything over 30 seconds)",
+      "married": "The Moment of Silence (anything over 30 seconds)",
+      "family": "The Moment of Silence (anything over 30 seconds)"
+    },
+
+  "s2": {
+      "ysa": "Name Dropper (sure to mention a personal connection to a GA)",
+      "married": "Name Dropper (sure to mention a personal connection to a GA)",
+      "family": "Name Dropper (sure to mention a personal connection to a GA)"
+    },
+
+  "s3": {
+      "ysa": "Mad dash for first place",
+      "married": "Mad dash for first place",
+      "family": "Mad dash for first place"
+    },
+
+  "s4": {
+      "ysa": "We know you are single, stop mentioning it",
+      "married": "The Arrangement (I'll go up if you go up)",
+      "family": "The Arrangement (I'll go up if you go up)"
+    },
+
+  "s5": {
+      "ysa": "\"I'm not sure what I'm supposed to say, but I wanted to come up here\"",
+      "married": "\"I'm not sure what I'm supposed to say, but I wanted to come up here\"",
+      "family": "\"I'm not sure what I'm supposed to say, but I wanted to come up here\""
+    },
+
+  "s6": {
+      "ysa": "Travelogue",
+      "married": "Travelogue",
+      "family": "Travelogue"
+    },
+
+  "s7": {
+      "ysa": "Bad Joke (usually told at the beginning and doesn't go over very well)",
+      "married": "Bad Joke (usually told at the beginning and doesn't go over very well)",
+      "family": "Bad Joke (usually told at the beginning and doesn't go over very well)"
+    },
+
+  "s8": {
+      "ysa": "<strong>T</strong>oo <strong>M</strong>uch <strong>I</strong>nformation",
+      "married": "<strong>T</strong>oo <strong>M</strong>uch <strong>I</strong>nformation",
+      "family": "<strong>T</strong>oo <strong>M</strong>uch <strong>I</strong>nformation"
+    },
+
+  "s9": {
+      "ysa": "\"On <strong>MY</strong> Mission... \"",
+      "married": "\"On <strong>MY</strong> Mission... \"",
+      "family": "\"On <strong>MY</strong> Mission... \""
+    },
+
+  "s10": {
+      "ysa": "The Ugly Cry",
+      "married": "The Ugly Cry",
+      "family": "The Ugly Cry"
+    },
+
+  "s11": {
+      "ysa": "\"...fiber of my being...\"",
+      "married": "\"...fiber of my being...\"",
+      "family": "\"...fiber of my being...\""
+    },
+
+  "s12": {
+      "ysa": "\"I know this/the church is true.\" (FREE SPACE)",
+      "married": "\"I know this/the church is true.\" (FREE SPACE)",
+      "family": "\"I know this/the church is true.\" (FREE SPACE)"
+    },
+
+  "s13": {
+      "ysa": "What-the-heck-are-you-doing-up-there-we're-already-ten-minutes-over-and-we-all-know-brevity-is-not-one-of-your-strengths",
+      "married": "What-the-heck-are-you-doing-up-there-we're-already-ten-minutes-over-and-we-all-know-brevity-is-not-one-of-your-strengths",
+      "family": "What-the-heck-are-you-doing-up-there-we're-already-ten-minutes-over-and-we-all-know-brevity-is-not-one-of-your-strengths"
+    },
+
+  "s14": {
+      "ysa": "The Regular (wouldn't be a testimony meeting without them)",
+      "married": "The Regular (wouldn't be a testimony meeting without them)",
+      "family": "The Regular (wouldn't be a testimony meeting without them)"
+    },
+
+  "s15": {
+      "ysa": "Elaborate Metaphor or Movie Comparison",
+      "married": "Elaborate Metaphor or Movie Comparison",
+      "family": "Elaborate Metaphor or Movie Comparison"
+    },
+
+  "s16": {
+      "ysa": "The Visitor (although not in the ward, feels compelled to testify)",
+      "married": "The Visitor (although not in the ward, feels compelled to testify)",
+      "family": "The Visitor (although not in the ward, feels compelled to testify)"
+    },
+
+  "s17": {
+      "ysa": "Surprisingly Good Joke",
+      "married": "Surprisingly Good Joke",
+      "family": "Surprisingly Good Joke"
+    },
+
+  "s18": {
+      "ysa": "The Long Talker (goes over ten minutes)",
+      "married": "The Long Talker (goes over ten minutes)",
+      "family": "The Long Talker (goes over ten minutes)"
+    },
+
+  "s19": {
+      "ysa": "Tender Mercies",
+      "married": "Tender Mercies",
+      "family": "Tender Mercies"
+    },
+
+  "s20": {
+      "ysa": "Talking about getting someone's number",
+      "married": "\"Marriage is hard\"",
+      "family": "The Unaccompanied Minor"
+    },
+
+  "s21": {
+      "ysa": "\"Exotic Utah\"",
+      "married": "\"Exotic Utah\"",
+      "family": "\"Exotic Utah\""
+    },
+
+  "s22": {
+      "ysa": "Member of the bishopric falls asleep",
+      "married": "Member of the bishopric falls asleep",
+      "family": "Member of the bishopric falls asleep"
+    },
+
+  "s23": {
+      "ysa": "\"I am so grateful for my roomates\"",
+      "married": "Story of how they met their spouse",
+      "family": "Accompanied Minor (prompted by the still small voice of a parent)"
+    },
+
+  "s24": {
+      "ysa": "\"I say these things in the same of <strong>THY</strong> Son...\"",
+      "married": "\"I say these things in the same of <strong>THY</strong> Son...\"",
+      "family": "\"I say these things in the same of <strong>THY</strong> Son...\""
+    }
+
+
+
+}
