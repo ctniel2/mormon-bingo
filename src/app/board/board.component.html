@@ -6,72 +6,90 @@
 
 <div id="ysaBoard" *ngIf="board == 'YSA'">
   <span *ngFor="let square of ysaBingo; let i = index">
-    <span *ngIf="i < 5" class="squares">{{i}}</span>
+    <span *ngIf="i < 5 && !square.active" class="squares" (click)="activateSquare(i)">{{i}}</span>
+    <span *ngIf="i < 5 && square.active" class="squares-active" (click)="deactivateSquare(i)">{{i}}</span>
   </span>
   <br>
   <span *ngFor="let square of ysaBingo; let i = index">
-    <span *ngIf="i > 4 && i < 10" class="squares">{{i}}</span>
+    <span *ngIf="i > 4 && i < 10 && !square.active" class="squares" (click)="activateSquare(i)">{{i}}</span>
+    <span *ngIf="i > 4 && i < 10 && square.active" class="squares-active" (click)="deactivateSquare(i)">{{i}}</span>
   </span>
   <br>
   <span *ngFor="let square of ysaBingo; let i = index">
-    <span *ngIf="i > 9 && i < 15" class="squares">{{i}}</span>
+    <span *ngIf="i > 9 && i < 15 && !square.active" class="squares" (click)="activateSquare(i)">{{i}}</span>
+    <span *ngIf="i > 9 && i < 15 && square.active" class="squares-active" (click)="deactivateSquare(i)">{{i}}</span>
   </span>
   <br>
   <span *ngFor="let square of ysaBingo; let i = index">
-    <span *ngIf="i > 14 && i < 20" class="squares">{{i}}</span>
+    <span *ngIf="i > 14 && i < 20 && !square.active" class="squares" (click)="activateSquare(i)">{{i}}</span>
+    <span *ngIf="i > 14 && i < 20 && square.active" class="squares-active" (click)="deactivateSquare(i)">{{i}}</span>
   </span>
   <br>
   <span *ngFor="let square of ysaBingo; let i = index">
-    <span *ngIf="i > 19 && i < 25" class="squares">{{i}}</span>
+    <span *ngIf="i > 19 && i < 25 && !square.active" class="squares" (click)="activateSquare(i)">{{i}}</span>
+    <span *ngIf="i > 19 && i < 25 && square.active" class="squares-active" (click)="deactivateSquare(i)">{{i}}</span>
   </span>
   <br>
+  <button (click)="resetBoard()">Clear board</button>
   <button (click)="determineBoard(0)">Back to board selection</button>
 </div>
 
 <div id="marriedBoard" *ngIf="board == 'Married'">
   <span *ngFor="let square of marriedBingo; let i = index">
-    <span *ngIf="i < 5" class="squares">{{i}}</span>
+    <span *ngIf="i < 5 && !square.active" class="squares" (click)="activateSquare(i)">{{i}}</span>
+    <span *ngIf="i < 5 && square.active" class="squares-active" (click)="deactivateSquare(i)">{{i}}</span>
   </span>
   <br>
   <span *ngFor="let square of marriedBingo; let i = index">
-    <span *ngIf="i > 4 && i < 10" class="squares">{{i}}</span>
+    <span *ngIf="i > 4 && i < 10 && !square.active" class="squares" (click)="activateSquare(i)">{{i}}</span>
+    <span *ngIf="i > 4 && i < 10 && square.active" class="squares-active" (click)="deactivateSquare(i)">{{i}}</span>
   </span>
   <br>
   <span *ngFor="let square of marriedBingo; let i = index">
-    <span *ngIf="i > 9 && i < 15" class="squares">{{i}}</span>
+    <span *ngIf="i > 9 && i < 15 && !square.active" class="squares" (click)="activateSquare(i)">{{i}}</span>
+    <span *ngIf="i > 9 && i < 15 && square.active" class="squares-active" (click)="deactivateSquare(i)">{{i}}</span>
   </span>
   <br>
   <span *ngFor="let square of marriedBingo; let i = index">
-    <span *ngIf="i > 14 && i < 20" class="squares">{{i}}</span>
+    <span *ngIf="i > 14 && i < 20 && !square.active" class="squares" (click)="activateSquare(i)">{{i}}</span>
+    <span *ngIf="i > 14 && i < 20 && square.active" class="squares-active" (click)="deactivateSquare(i)">{{i}}</span>
   </span>
   <br>
   <span *ngFor="let square of marriedBingo; let i = index">
-    <span *ngIf="i > 19 && i < 25" class="squares">{{i}}</span>
+    <span *ngIf="i > 19 && i < 25 && !square.active" class="squares" (click)="activateSquare(i)">{{i}}</span>
+    <span *ngIf="i > 19 && i < 25 && square.active" class="squares-active" (click)="deactivateSquare(i)">{{i}}</span>
   </span>
   <br>
+  <button (click)="resetBoard()">Clear board</button>
   <button (click)="determineBoard(0)">Back to board selection</button>
 </div>
 
 <div id="familyBoard" *ngIf="board =='Family'">
   <span *ngFor="let square of familyBingo; let i = index">
-    <span *ngIf="i < 5" class="squares">{{i}}</span>
+    <span *ngIf="i < 5 && !square.active" class="squares" (click)="activateSquare(i)">{{i}}</span>
+    <span *ngIf="i < 5 && square.active" class="squares-active" (click)="deactivateSquare(i)">{{i}}</span>
   </span>
   <br>
   <span *ngFor="let square of familyBingo; let i = index">
-    <span *ngIf="i > 4 && i < 10" class="squares">{{i}}</span>
+    <span *ngIf="i > 4 && i < 10 && !square.active" class="squares" (click)="activateSquare(i)">{{i}}</span>
+    <span *ngIf="i > 4 && i < 10 && square.active" class="squares-active" (click)="deactivateSquare(i)">{{i}}</span>
   </span>
   <br>
   <span *ngFor="let square of familyBingo; let i = index">
-    <span *ngIf="i > 9 && i < 15" class="squares">{{i}}</span>
+    <span *ngIf="i > 9 && i < 15 && !square.active" class="squares" (click)="activateSquare(i)">{{i}}</span>
+    <span *ngIf="i > 9 && i < 15 && square.active" class="squares-active" (click)="deactivateSquare(i)">{{i}}</span>
   </span>
   <br>
   <span *ngFor="let square of familyBingo; let i = index">
-    <span *ngIf="i > 14 && i < 20" class="squares">{{i}}</span>
+    <span *ngIf="i > 14 && i < 20 && !square.active" class="squares" (click)="activateSquare(i)">{{i}}</span>
+    <span *ngIf="i > 14 && i < 20 && square.active" class="squares-active" (click)="deactivateSquare(i)">{{i}}</span>
   </span>
   <br>
   <span *ngFor="let square of familyBingo; let i = index">
-    <span *ngIf="i > 19 && i < 25" class="squares">{{i}}</span>
+    <span *ngIf="i > 19 && i < 25 && !square.active" class="squares" (click)="activateSquare(i)">{{i}}</span>
+    <span *ngIf="i > 19 && i < 25 && square.active" class="squares-active" (click)="deactivateSquare(i)">{{i}}</span>
   </span>
   <br>
+  <button (click)="resetBoard()">Clear board</button>
   <button (click)="determineBoard(0)">Back to board selection</button>
 </div>
